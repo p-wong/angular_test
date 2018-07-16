@@ -1,0 +1,35 @@
+<div class='structure float-left'>
+
+  <div class='header'>
+    {{header}}
+  </div>
+
+  <div class='subtitle'>
+    {{subtitle}}
+  </div>
+
+  <div class='form-questions'>
+    {{location}}
+  </div>
+
+  <select class='dropdown' name='location' [(ngModel)]="selectedValue">
+    <option [ngValue]="undefined" disabled  selected>Choose a location</option>
+    <option *ngFor="let city of cities" [value]="city.name">{{city.name}}</option>
+  </select>
+
+  <div class='form-questions'>
+    {{employees}}
+  </div>
+
+  <div class='btn-group'>
+    <button>1-20</button>
+    <button>20-100</button>
+    <button>100-1,000</button>
+    <button>1,000+</button>
+  </div>
+
+  <a (click)="navigate()"><button class='start-btn'>Start</button></a>
+
+  <!-- <app-workspace [city]='selectedValue'></app-workspace> -->
+
+</div>

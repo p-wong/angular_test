@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'ApercuLight';
+  src: url('./app/fonts/apercu-light.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'ApercuMedium';
+  src: url('./app/fonts/apercu-medium.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'ApercuRegular';
+  src: url('./app/fonts/apercu-regular.otf') format("opentype");
+}
+
+.float-left {
+  float: left;
+}

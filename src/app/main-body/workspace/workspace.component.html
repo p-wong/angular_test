@@ -1,0 +1,47 @@
+
+
+
+<div class='header'>
+  {{city}}
+</div>
+
+<div class='float-left margin-first-div form-margins'>
+  <div class='form-questions'>
+    {{noOfPeople}}
+  </div>
+  <input class='number-employees' type='number' placeholder="Number of People"/>
+</div>
+
+<div class='float-left form-margins'>
+  <div class='form-questions'>
+    {{whenMoveIn}}
+  </div>
+  <div class='when-move-in-buttons'>
+    <button>This Month</button>
+    <button>Next Month</button>
+    <button>Other</button>
+  </div>
+</div>
+
+<div class='float-left form-margins'>
+  <div class='form-questions'>
+    {{neighborhood}}
+  </div>
+
+  <select class='dropdown' name='location' [(ngModel)]="selectedValue">
+    <option [ngValue]="undefined" disabled  selected>All Neighborhoods</option>
+    <option *ngFor="let neighborhood of neighborhoods" [value]="neighborhood.name">{{neighborhood.name}}</option>
+  </select>
+</div>
+
+<button class='find-workspace-btn'>Find Workspace</button>
+
+<div class='viewing-workspace'>
+  Viewing 52 buildings
+</div>
+
+<div class='margin-first-div'>
+  <a href=''><img [src]="W14" class='workspace-imgs' height=440px width=350px /></a>
+  <a href=''><img [src]="W29" class='workspace-imgs' height=440px width=350px /></a>
+  <a href=''><img [src]="DOCK72" class='workspace-imgs' height=440px width=350px /></a>
+</div>

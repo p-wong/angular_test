@@ -1,0 +1,11 @@
+.structure {
+  margin: -10px 0px 0px 40px;
+}
+
+.image-caption {
+  margin: 8px 0px 0px 744px;
+  padding-left: 40px;
+  font-family: 'ApercuLight';
+  font-size: 13px;
+  position: absolute;
+}

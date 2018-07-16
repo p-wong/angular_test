@@ -1,0 +1,30 @@
+import { City } from './city';
+
+export const CITIES: City[] = [
+  { id: 0, name: 'Atlanta' },
+  { id: 1, name: 'Austin' },
+  { id: 2, name: 'Baltimore' },
+  { id: 3, name: 'Boston' },
+  { id: 4, name: 'Charlotte' },
+  { id: 5, name: 'Chicago' },
+  { id: 6, name: 'College Park, MD' },
+  { id: 7, name: 'Dallas - Fort Worth' },
+  { id: 8, name: 'Denver' },
+  { id: 9, name: 'Detroit' },
+  { id: 10, name: 'Houston' },
+  { id: 11, name: 'Kansas' },
+  { id: 12, name: 'Los Angeles' },
+  { id: 13, name: 'Miami' },
+  { id: 14, name: 'Minneapolis' },
+  { id: 15, name: 'Nashville' },
+  { id: 16, name: 'New York City' },
+  { id: 17, name: 'Orange County' },
+  { id: 18, name: 'Philadelphia' },
+  { id: 19, name: 'Phoenix' },
+  { id: 20, name: 'Portland' },
+  { id: 21, name: 'Raleigh-Durham' },
+  { id: 22, name: 'SF Bay Area' },
+  { id: 23, name: 'San Diego' },
+  { id: 24, name: 'Seattle' },
+  { id: 25, name: 'Washington, D.C.' }
+];
